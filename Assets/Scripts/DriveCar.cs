@@ -48,7 +48,7 @@ public class DriveCar : MonoBehaviour
 
       if (_isBraking)
       {
-         _carRb.velocity = Vector2.Lerp(_carRb.velocity, Vector2.zero, _brakeForce * Time.fixedDeltaTime);
+         _carRb.linearVelocity = Vector2.Lerp(_carRb.linearVelocity, Vector2.zero, _brakeForce * Time.fixedDeltaTime);
       }
    }
 

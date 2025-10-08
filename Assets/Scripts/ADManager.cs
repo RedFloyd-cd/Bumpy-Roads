@@ -8,10 +8,10 @@ public class AdManager : MonoBehaviour
     private AppOpenAd appOpenAd;
     private InterstitialAd interstitialAd;
 
-    // 🎯 **Test ID'ler (Gerçek reklam için değiştir)**
-    private string rewardedAdUnitId = "ca-app-pub-4513040819044297/3043778966"; // Test Rewarded Ad ID
-    private string appOpenAdUnitId = "ca-app-pub-4513040819044297/2724310229";  // Test App Open Ad ID
-    private string interstitialAdUnitId = "ca-app-pub-4513040819044297/9354131909"; // Test Interstitial Ad ID
+   
+    private string rewardedAdUnitId = "ca-app-pub-4513040819044297/3043778966"; 
+    private string appOpenAdUnitId = "ca-app-pub-4513040819044297/2724310229";  
+    private string interstitialAdUnitId = "ca-app-pub-4513040819044297/9354131909"; 
 
     void Start()
     {
