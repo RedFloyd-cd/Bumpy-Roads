@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -254,6 +251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -316,6 +317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -372,6 +377,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -721,15 +730,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -909,15 +920,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1009,6 +1022,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1120,15 +1137,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1205,6 +1224,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1396,6 +1419,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1654,6 +1681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel
@@ -1716,6 +1747,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (10)
@@ -1984,6 +2019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin10 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 557.5248
@@ -2110,15 +2149,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2214,6 +2255,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2396,6 +2441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin10 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 526.15295
@@ -2565,6 +2614,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel
@@ -2627,6 +2680,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (8)
@@ -2832,6 +2889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin10
       objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 137.50212
@@ -2885,6 +2946,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (4)
@@ -2968,6 +3033,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2989,6 +3059,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3049,6 +3120,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576021751}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -3072,7 +3144,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -3083,7 +3156,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &576021753
@@ -3103,6 +3175,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3124,6 +3201,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3164,6 +3242,10 @@ PrefabInstance:
     - target: {fileID: 814109167061461864, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_Name
       value: Coin10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3262,6 +3344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3327,6 +3413,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3348,6 +3439,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
@@ -3370,6 +3462,7 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634533659}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -3393,7 +3486,8 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.64, y: 0.64}
   m_Direction: 0
@@ -3566,7 +3660,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -3574,6 +3667,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1001 &664518263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3625,6 +3719,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3687,6 +3785,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3909,6 +4011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin10
       objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 252.04402
@@ -4000,6 +4106,7 @@ PolygonCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718830397}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 581979293e5bf8c4fa1e6582e68a3bde, type: 2}
   m_IncludeLayers:
@@ -4023,7 +4130,8 @@ PolygonCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -4092,6 +4200,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4113,6 +4226,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
@@ -4315,6 +4429,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4728,6 +4846,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883108601}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4751,7 +4870,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0.29421237, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -4762,7 +4882,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 0.41157526, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &883108604
@@ -4782,6 +4901,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4803,6 +4927,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -4918,6 +5043,10 @@ PrefabInstance:
     - target: {fileID: 814109167061461864, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_Name
       value: Coin10 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5218,7 +5347,7 @@ GameObject:
   m_IsActive: 1
 --- !u!50 &982840243
 Rigidbody2D:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5229,8 +5358,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 2
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -5344,7 +5473,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 957f27a37ed0a1b4cbbd7e4fbb08a105, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 957f27a37ed0a1b4cbbd7e4fbb08a105, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5440,7 +5570,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6f9354526f9d649448fba658991251f9, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 6f9354526f9d649448fba658991251f9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5597,6 +5728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5653,6 +5788,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5813,6 +5952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin10 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 712.15204
@@ -5910,6 +6053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5968,6 +6115,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5989,6 +6141,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
@@ -6020,6 +6173,7 @@ HingeJoint2D:
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.009317398, y: -0.57766044}
   m_ConnectedAnchor: {x: -0.5006714, y: 1.6723394}
+  m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -6030,7 +6184,7 @@ HingeJoint2D:
     m_UpperAngle: 50
 --- !u!50 &1077939744
 Rigidbody2D:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6041,8 +6195,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_GravityScale: -0.1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -6063,6 +6217,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077939740}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -6086,9 +6241,9 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0.046916366, y: -0.017594099}
-  serializedVersion: 2
   m_Radius: 0.6173061
 --- !u!114 &1077939746
 MonoBehaviour:
@@ -6153,6 +6308,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6305,6 +6464,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6505,6 +6668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6562,6 +6729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6575,6 +6746,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (1)
@@ -6729,15 +6904,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7116,6 +7293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7228,15 +7409,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7313,6 +7496,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7563,15 +7750,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7658,6 +7847,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7769,15 +7962,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9527,6 +9722,11 @@ MonoBehaviour:
   m_EnableTangents: 0
   m_GeometryCached: 0
   m_UTess2D: 0
+  m_UpdateShadow: 0
+  m_ShadowDetail: 16
+  m_ShadowOffset: 0.5
+  m_BoundsScale: 2
+  m_UpdateGeometry: 1
   m_Creator: {fileID: 0}
   m_Modifiers: []
   m_ColliderSegment:
@@ -11275,6 +11475,7 @@ MonoBehaviour:
   - {x: 67, y: -17.779999}
   - {x: 67, y: -4.006116}
   - {x: 67.186066, y: -3.5680137}
+  m_ShadowSegment: []
 --- !u!1971053207 &1366156533
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -11292,6 +11493,11 @@ SpriteShapeRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11314,6 +11520,7 @@ SpriteShapeRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
@@ -11357,6 +11564,7 @@ EdgeCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366156530}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -11380,7 +11588,8 @@ EdgeCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
@@ -13185,6 +13394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13242,6 +13455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13298,6 +13515,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13472,15 +13693,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -13557,6 +13780,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13938,6 +14165,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592490323}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -13961,7 +14189,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -13972,7 +14201,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1592490325
@@ -13992,6 +14220,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14013,6 +14246,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -14093,6 +14327,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14199,15 +14437,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -14285,6 +14525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14347,6 +14591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14403,6 +14651,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14770,6 +15022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15035,6 +15291,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (6)
@@ -15168,6 +15428,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (9)
@@ -15253,7 +15517,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1789442204
 Rigidbody2D:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15264,8 +15528,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: eb01008d212e01a4d8088551ec9f4223, type: 2}
   m_IncludeLayers:
@@ -15286,6 +15550,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789442202}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -15309,9 +15574,9 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000011920929}
-  serializedVersion: 2
   m_Radius: 0.6399999
 --- !u!212 &1789442206
 SpriteRenderer:
@@ -15330,6 +15595,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15351,6 +15621,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
@@ -15465,15 +15736,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -15551,6 +15824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15618,6 +15895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15679,6 +15960,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15847,6 +16132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15877,6 +16166,7 @@ PolygonCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849315906}
   m_Enabled: 0
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -15900,7 +16190,8 @@ PolygonCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -16040,15 +16331,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -16101,7 +16394,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7e4a173eb85f86b4ca2a4647d4a15082, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 7e4a173eb85f86b4ca2a4647d4a15082, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -16238,7 +16532,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1880610758
 Rigidbody2D:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16249,8 +16543,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: eb01008d212e01a4d8088551ec9f4223, type: 2}
   m_IncludeLayers:
@@ -16271,6 +16565,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880610756}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -16294,9 +16589,9 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000011920929}
-  serializedVersion: 2
   m_Radius: 0.6399999
 --- !u!212 &1880610760
 SpriteRenderer:
@@ -16315,6 +16610,11 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16336,6 +16636,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
@@ -16361,6 +16662,10 @@ PrefabInstance:
     - target: {fileID: 814109167061461864, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_Name
       value: Coin10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373274101009194058, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6278285656024835932, guid: c05606af3e16c1648888874b6a62ad26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16415,6 +16720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (7)
@@ -16564,15 +16873,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -16650,6 +16961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16711,6 +17026,10 @@ PrefabInstance:
     - target: {fileID: 3857442929228140785, guid: 9c79113e4afa5e7469fcb749fdd2f16f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887419732233216063, guid: 9c79113e4afa5e7469fcb749fdd2f16f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16774,6 +17093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16792,6 +17115,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (2)
@@ -16893,6 +17220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16906,6 +17237,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 1892755655231589524, guid: bb47c8e815f95fe46ac8c6bb6717a918, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3065177529488922980, guid: bb47c8e815f95fe46ac8c6bb6717a918, type: 3}
       propertyPath: m_LocalPosition.x
       value: 801.0004
@@ -17006,6 +17341,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17317,6 +17656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin5 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17335,6 +17678,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2042072545}
     m_Modifications:
+    - target: {fileID: 75280829881447970, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6071819400667004657, guid: 0e8375296a6522b4db8c842b80a0d1cd, type: 3}
       propertyPath: m_Name
       value: Fuel (5)
@@ -17511,6 +17858,10 @@ PrefabInstance:
     - target: {fileID: 3370946679852074148, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
       propertyPath: m_Name
       value: Coin5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281802296787990586, guid: 51442f2f186046f4bbb74eb174512800, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
